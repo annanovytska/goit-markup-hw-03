@@ -81,6 +81,7 @@ button {
 
 .header-nav {
   display: flex;
+  align-items: center;
 }
 .logo {
   margin-right: 76px;
@@ -104,6 +105,9 @@ button {
 }
 
 .nav-link {
+  padding-top: 24px;
+  padding-bottom: 24px;
+
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -142,22 +146,30 @@ button {
 
 /* HERO */
 .hero {
+  padding: 188px 0;
+
   background-color: var(--navyblue-color-titles);
 }
 .hero-title {
   margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 496px;
 
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
   color: var(--white-color);
-  text-align: center;
 }
 .hero-button {
   display: block;
   padding: 16px 32px;
   margin: auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -255,11 +267,11 @@ button {
 .team-item {
   width: calc((100% - 72px) / 4);
   background-color: var(--white-color);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-descr {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding: 32px 16px;
 
   text-align: center;
 }
@@ -290,6 +302,9 @@ button {
 }
 
 .footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+
   font-size: 18px;
   font-family: Raleway, sans-serif;
   font-weight: 800;
@@ -304,8 +319,6 @@ button {
 }
 
 .footer-text {
-  margin-top: 17.5px;
-
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -315,9 +328,9 @@ button {
 
 /* PORTFOLIO */
 
-.section-portfolio{
-padding-top: 96px;
-padding-bottom: 120px;
+.section-portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 
 .portfolio-menu {
@@ -353,21 +366,21 @@ width: calc((100% - 96px) / 5);
   background-color: #404bbf;
 }
 
-.portfolio-card-menu{
-display: flex;
-flex-wrap: wrap;
-gap: 24px;
+.portfolio-card-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
 
 /* .portfolio-card-item{
 width: calc((100% - 192px) / 9);
 } */
 
-.container-div{
-padding-top: 32px;
-padding-bottom: 32px;
-padding-left: 16px;
-border: 1px solid#E7E9FC;
+.container-div {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  border: 1px solid#E7E9FC;
 }
 
 .portfolio-title {
