@@ -341,10 +341,6 @@ button {
   margin-bottom: 72px;
 }
 
-/* .portfolio-item{
-width: calc((100% - 96px) / 5);
-} */
-
 .portfolio-button {
   padding: 12px 24px;
 
@@ -364,7 +360,6 @@ width: calc((100% - 96px) / 5);
 .portfolio-button:focus {
   color: var(--white-color);
   background-color: #404bbf;
-  border: 1px solid transparent;
   border: 1px solid transparent;
 }
 
